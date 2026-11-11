@@ -1,7 +1,26 @@
 # Changelog
 
 Every published build of Drift™, newest first. Versions follow `versionName` in
-`app/build.gradle.kts`; the current build is **2.4** (`versionCode 16`).
+`app/build.gradle.kts`; the current build is **2.5** (`versionCode 17`).
+
+## 2.5 — 11 November 2026
+
+Twelve hero themes and a start-up copy check.
+
+- Twelve **hero themes** in a new **HEROES** section in Settings: SPIDER-MAN,
+  IRON MAN, BATMAN, SUPERMAN, WOLVERINE, DEADPOOL, BLACK PANTHER, SCARLET WITCH,
+  THOR, HULK, CAPTAIN AMERICA and FLASH. Nineteen themes in total, all in the
+  home chip cycle and the controls page.
+- Each hero theme is a palette plus one drawn motif backdrop — gradients, arcs
+  and line work at low alpha. No artwork ships, so the APK size is unchanged.
+  Motifs freeze for still frames behind settings, drawer and search, and follow
+  LITE MODE.
+- `sys/Integrity.kt`: Drift compares its own signing certificate (SHA-256) with
+  the release certificate at launch. A build signed with any other key shows a
+  **MODIFIED COPY** screen instead of the launcher, with **OPEN APP SETTINGS**
+  and **EXIT** so a bad install can still be removed. Debug builds skip the check.
+- Settings header and About read `Drift™ 2.5` from `BuildConfig.VERSION_NAME`
+  instead of a hardcoded string.
 
 ## 2.4 — 9 November 2026
 
