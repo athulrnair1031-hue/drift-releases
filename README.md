@@ -1,11 +1,11 @@
 # Drift™
 
-**A gesture-first Android home screen with nineteen themes, widgets, icon packs
+**A gesture-first Android home screen with twenty themes, widgets, icon packs
 and three app-drawer layouts.**
 
-Android 8.0+ · v2.5 · by Athul R Nair · signed release build
+Android 8.0+ · v2.6 · by Athul R Nair · signed release build
 
-[**Download Drift 2.5**](../../releases/latest) · [Changelog](CHANGELOG.md) ·
+[**Download Drift 2.6**](../../releases/latest) · [Changelog](CHANGELOG.md) ·
 [Report a problem](../../issues)
 
 | Home — GLASS | App drawer | Themes |
@@ -20,7 +20,7 @@ holds no internet permission, has no analytics, and needs no account.
 ## Install
 
 1. Open the [latest release](../../releases/latest).
-2. Download **Drift-2.5-release.apk**.
+2. Download **Drift-2.6-release.apk**.
 3. Open the file on the phone and allow "install unknown apps" for your browser
    or file manager when Android asks.
 4. Open Drift, then **Settings → SET AS DEFAULT LAUNCHER**, or Android Settings →
@@ -74,6 +74,7 @@ instead of the launcher, with a button to open its app settings.
 | E-INK | Paper white, ink outlines, round grayscale icons | — |
 | SPACE | Deep navy sky, drifting stars, shooting stars | ✓ |
 | GLASS | Translucent milk-white panes over moving liquid colour | ✓ |
+| MATRIX | Falling green glyph columns over near-black | ✓ |
 
 ### Hero themes
 
