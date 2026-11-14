@@ -1,7 +1,23 @@
 # Changelog
 
 Every published build of Drift™, newest first. Versions follow `versionName` in
-`app/build.gradle.kts`; the current build is **2.5** (`versionCode 17`).
+`app/build.gradle.kts`; the current build is **2.6** (`versionCode 18`).
+
+## 2.6 — 14 November 2026
+
+One new live theme.
+
+- **MATRIX** theme: columns of monospace glyphs falling over a near-black
+  field, solid panes so the rain reads in the gaps instead of through the text.
+  Twenty themes in total.
+- The glyphs are baked once into one strip bitmap and drawn as tinted cells, so
+  a frame costs a few hundred texture draws and nothing per frame. Shaded top
+  and bottom bands keep the status row and dock readable.
+- MATRIX freezes to a single frame in LITE MODE and pauses whenever home is
+  covered by the drawer, search or settings.
+- Home chip cycle fixed: GREEN now goes to GLASS instead of skipping to AUTO,
+  and the order is AUTO → LIGHT → DARK → E-INK → SPACE → GREEN → GLASS → MATRIX
+  → heroes → AUTO.
 
 ## 2.5 — 11 November 2026
 
